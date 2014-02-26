@@ -22,7 +22,7 @@ def shrink(z,y):
 
 ''' This function tests for whether the list passed to it only contains primes
 after the first element. Should not be used on its own unless you only want to
-know if alist[:1] are all primes.'''
+know if alist[1:] are all primes.'''
 def only_dividend_and_primes(alist):
     return True if False not in map(test_for_prime,alist[1:]) else False
 
